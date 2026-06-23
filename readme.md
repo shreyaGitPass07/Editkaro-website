@@ -28,7 +28,7 @@ A complete multi-page website for **Editkaro.in**, a social media marketing and 
 
 ## Live Demo
 
-[View Live Site]([Your Netlify URL here])
+https://editkaro-in-website.netlify.app
 
 ---
 
