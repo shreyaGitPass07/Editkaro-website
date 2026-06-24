@@ -3,15 +3,12 @@
 //  Handles TWO forms:
 //    1. Contact Form  (contact.html)
 //    2. Subscribe Form (index.html)
-//
-//  Deploy this as ONE Web App.
 //  Both forms POST to the same URL.
 //  The "source" field routes each submission
 //  to the correct sheet tab.
 // ============================================
 
 // ─── SHEET TAB NAMES ─────────────────────────
-// These must match the tab names in your Google Sheet exactly.
 const CONTACT_SHEET_NAME   = 'Contact Submissions';
 const SUBSCRIBE_SHEET_NAME = 'Email Subscribers';
 
@@ -79,7 +76,6 @@ function handleContact(ss, p) {
     p.source          || 'contact-form'
   ]);
 
-  // Optional: send email notification to yourself
   sendContactNotification(p);
 }
 
